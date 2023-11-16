@@ -1,4 +1,10 @@
 {
     "version": 3,
-    "buildCommand": "npm run dev"
+    "buildCommand": "npm run dev",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ]
 }
