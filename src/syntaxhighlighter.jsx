@@ -18,7 +18,7 @@ function SyntaxHiglighter(props) {
       .then((data) => setQuizContent(data))
       .catch((error) => console.error("Error reading file:", error));
 
-  }, []);
+  }, []);  
   const defaultLanguage = "python";
   const defaultTheme = "a11yDark";
   const [language, setLanguage] = useState(defaultLanguage);
@@ -34,7 +34,7 @@ function SyntaxHiglighter(props) {
  my-80 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  dark:shadow-white/30 shadow-2xl"
         >
           <div class="font-mono py-4 px-4 text-2xl">
-            <SyntaxHighlighter language={language} style={themes[theme]}>
+            <SyntaxHighlighter language={defaultLanguage} style={themes[theme]}>
               {quizContent}
             </SyntaxHighlighter>
           </div>
