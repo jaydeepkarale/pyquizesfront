@@ -31,6 +31,87 @@ const answers = [
     Correct: "30",
     Explanation:
       "The value of my_var getting changed in the class method. So, if on initialisation of the class the variable value was set to 10, that will get changed to 30 in the class method itself. And upon calling the class method, it will always return 30!",
+  },
+
+  {
+    Question: "/pyquizfiles/quiz4.py", 
+    A: "False",
+    B: "True",
+    C: "Error",
+    D: "[]",
+    Correct: "False",
+    Explanation:
+      "his condition can be viewed as `print(not True if True or False else False)`",
+  },
+
+  {
+    Question: "/pyquizfiles/quiz5.py", 
+    A: "Python",
+    B: "love",
+    C: "Error",
+    D: "love Python",
+    Correct: "Python",
+    Explanation:
+      "The keys 2.0 and 2 are considered identical ad hence the value for 2 overrides the value for 2.0",
+  },
+
+  {
+    Question: "/pyquizfiles/quiz6.py", 
+    A: "{'py': 'amazing'}",
+    B: "{'py': 10}",
+    C: "Error",
+    D: "None Of The Above",
+    Correct: "{'py': 10}",
+    Explanation:
+      "The value py gets changed",
+  },
+
+
+  {
+    Question: "/pyquizfiles/quiz7.py", 
+    A: "zero",
+    B: "Error",
+    C: "9",
+    D: "zerozero",
+    Correct: "9",
+    Explanation:
+      "Loop variable `number` retains the last value from the range(10) which is 9",
+  },
+
+
+  {
+    Question: "/pyquizfiles/quiz8.py", 
+    A: "[1, 2, 3]",
+    B: "[1, 2, 3, 4, 5]",
+    C: "[1, 2, 3, 5]",
+    D: "[1, 2, 3, 4]",
+    Correct: "[1, 2, 3, 4, 5]",
+    Explanation:
+      "Since y and x are referring to the same list operations to either them are reflected in both lists",
+  },
+
+
+  {
+    Question: "/pyquizfiles/quiz9.py", 
+    A: "3",
+    B: "4",
+    C: "23",
+    D: "True",
+    Correct: "4",
+    Explanation:
+      "The condition x+y*z evaluates to `not 23` which is FALSE and hence value of `Y` will be printed",
+  },
+
+
+  {
+    Question: "/pyquizfiles/quiz10.py", 
+    A: "[2, 4, 5, [0]]",
+    B: "[1, 2, 4, 5, [0]]",
+    C: "[0, 1, 2, 4, 5]",
+    D: "[2, 4, 5, 0]",
+    Correct: "[2, 4, 5, 0]",
+    Explanation:
+      "List method EXTEND (source_list.extend(dest)) takes an iterable(dest) and adds it's content to the end of the source_list",
   }
 ];
 

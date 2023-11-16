@@ -9,7 +9,7 @@ import { useState } from "react";
 
 // Function to generate a random number
 const generateRandomNumber = () => {
-  return Math.floor(Math.random() * 3);
+  return Math.floor(Math.random() * 10);
 };
 
 const questionId = generateRandomNumber(); // Generating a random number
