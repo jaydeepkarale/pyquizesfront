@@ -1,7 +1,7 @@
 const answers = [
   {
     
-    Question: "src/pyquizfiles/quiz1.py",
+    Question: "/pyquizfiles/quiz1.py",
     A: "Infinite Loop",
     B: "6 7",
     C: "10 9",
@@ -12,7 +12,7 @@ const answers = [
   },
 
   {
-    Question: "src/pyquizfiles/quiz2.py",
+    Question: "/pyquizfiles/quiz2.py",
     A: "<class 'tuple'>",
     B: "<class 'list'>",
     C: "<class 'str'>",
@@ -23,7 +23,7 @@ const answers = [
   },
 
   {
-    Question: "src/pyquizfiles/quiz3.py", 
+    Question: "/pyquizfiles/quiz3.py", 
     A: "40",
     B: "10",
     C: "30",
